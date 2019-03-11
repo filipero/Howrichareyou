@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/textViewEnterIncome"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:text="Enter Income"
+                android:textAlignment="center"
+                android:onClick="onClick"
+                android:clickable="true"
+                android:textSize="50sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:id="@+id/editTextAnnualIncome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Annual Income"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textSize="35sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textViewEnterSavings"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+
+                android:text="Enter Savings"
+                android:textAlignment="center"
+                android:onClick="onClick"
+                android:clickable="true"
+                android:textSize="50sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:id="@+id/editTextHomeEquity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Home Equity"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <EditText
+                android:id="@+id/editTextPossesionsEquity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Possesions Equity"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/editTextInvestments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Investments"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/buttonHowRichAmI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HOW RICH AM I?"
+                android:textSize="35sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:text="You are the"
+                android:textAlignment="center"
+                android:textSize="35sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textViewPercentage"
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:text="100%"
+                android:textAlignment="center"
+                android:textSize="90sp" />
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
